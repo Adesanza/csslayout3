@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+}
+div{
+    width: 100%;
+    height: 550px;
+}
+#content ul li{
+    padding-left: 40px;
+    list-style-type: none;
+}
+#wrap{
+    display: flex;
+    background-color: #364371;
+    
+}
+#nav{
+    background: #B0CFFF;
+    width: 150px;
+    height: 446px;
+    padding-left: 10px;
+    padding-top: 35px;
+}
+#content{
+    background-color: #5B7FBD;
+    width: 700px;
+    padding: 40px;
+    height: 400px;
+    text-align: center;
+    
+}
+#nav ul{
+    text-align: left;
+    padding-left: 40px;
+}
+.copyright{
+    margin-top: 30px;
+}
