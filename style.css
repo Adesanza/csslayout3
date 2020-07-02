@@ -1,9 +1,10 @@
 *{
     margin: 0px;
+    padding: 0px;
 }
 div{
     width: 100%;
-    height: 550px;
+    height: 100vh;
 }
 #content ul li{
     padding-left: 40px;
@@ -12,20 +13,19 @@ div{
 #wrap{
     display: flex;
     background-color: #364371;
+    justify-content: center;
     
 }
 #nav{
     background: #B0CFFF;
     width: 150px;
-    height: 446px;
+    height: 100%;
     padding-left: 10px;
-    padding-top: 35px;
+
 }
 #content{
     background-color: #5B7FBD;
     width: 700px;
-    padding: 40px;
-    height: 400px;
     text-align: center;
     
 }
@@ -35,4 +35,7 @@ div{
 }
 .copyright{
     margin-top: 30px;
+}
+h1, h2{
+    margin: 20px 0;
 }
